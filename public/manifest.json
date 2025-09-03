@@ -1,0 +1,28 @@
+{
+  "name": "WinMore Trading System",
+  "short_name": "WinMore",
+  "description": "Disciplined trading platform focused on consistency and risk management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "en-GB",
+  "scope": "/",
+  "prefer_related_applications": false
+}

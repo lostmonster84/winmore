@@ -1,0 +1,284 @@
+# DYNAMIC SCREENING GUIDE - Reference Branch
+
+**This document supports the Win More System V3:**
+- Adaptive position sizing from account-tracker.json
+- +10% profit, -5% stop ALWAYS
+- Maximum 3 trades daily
+- Dynamic allocation based on real-time conditions
+
+**Purpose:** Find optimal setups based on CURRENT market conditions, not fixed calendar rules
+
+---
+
+## DYNAMIC SCREENING WORKFLOW
+
+### STEP 1: ASSESS CURRENT MARKET STATE (2 minutes)
+
+**Real-Time Market Context Check:**
+```
+1. Current VIX: _____ (Look up live reading)
+2. SPY/QQQ trend: _____ (5-day and 20-day performance)  
+3. Current time: _____ (UK time, market status)
+4. Recent volatility: _____ (Compare VIX to 20-day average)
+5. Sector rotation: _____ (What's moving today?)
+```
+
+**Dynamic Environment Classification:**
+- **Low Vol/Uptrend:** Few opportunities, be very selective
+- **Low Vol/Sideways:** Rare setups, focus on quality
+- **Medium Vol/Any direction:** Normal setup scanning
+- **High Vol/Any direction:** Many opportunities, be systematic
+- **Crisis/Panic:** Maximum opportunities, deploy carefully
+
+### STEP 2: SELECT OPTIMAL SETUP FOCUS
+
+**Current Condition → Best Setup Mapping:**
+```
+IF VIX >21 AND many stocks down 8-15% → Focus: Setup 1 (Oversold)
+IF Earnings season active AND reactions >10% → Focus: Setup 3 (Earnings)
+IF Strong uptrend AND technical setups clean → Focus: Setup 2 (Support)  
+IF Major sector selloffs occurring → Focus: Setup 4 (Sympathy)
+IF Significant gaps at open → Focus: Setup 5 (Gap Fill)
+IF Mixed conditions → Adaptive: Take best available
+```
+
+**Real-Time Setup Prioritization:**
+1. **Scan all 5 setups** for current availability (30 seconds each)
+2. **Rank by current market fit** (which has most candidates?)
+3. **Choose primary focus** for this session
+4. **Keep secondary backup** if primary produces nothing
+
+---
+
+## ADAPTIVE SETUP SCREENING
+
+### SETUP 1: OVERSOLD BOUNCE (Dynamic Conditions)
+
+**When This Setup Works Best:**
+- VIX >19 (fear present)
+- Many quality names down 8-15%
+- No systemic/market structure issues
+- Broad market selloff, not sector-specific
+
+**Real-Time Screening Process:**
+1. **Finviz Screener:** Market Cap >$2B, Price >$20, RSI <40, Daily performance <-8%
+2. **Current Context Filter:** Remove any with company-specific news
+3. **VIX Adjustment:** If VIX >25, can accept RSI up to 45 (more opportunity)
+4. **Dynamic Threshold:** If VIX <17, require RSI <35 (be more selective)
+
+**Live Market Examples (Update Daily):**
+- Check current biggest losers in S&P 500
+- Verify which ones have no bad news
+- Confirm still above 200-day MA
+- Pick 2-3 best candidates for deeper analysis
+
+### SETUP 2: SUPPORT BOUNCE (Dynamic Conditions)
+
+**When This Setup Works Best:**
+- Market in uptrend or strong sideways
+- Individual stocks testing key levels
+- Volume increasing on support tests
+- Clean technical picture
+
+**Real-Time Screening Process:**
+1. **Watchlist Check:** Review 15-20 quality names for MA tests
+2. **TradingView Scan:** Look for 50-day or 200-day MA bounces with volume
+3. **Current Trend Filter:** Only take if broader market supportive
+4. **Dynamic Adjustment:** In weak markets, require multiple confirmations
+
+### SETUP 3: EARNINGS REACTIONS (Dynamic Conditions)
+
+**When This Setup Works Best:**
+- Active earnings season
+- Quality companies with minor disappointments
+- >10% overreactions to slight misses
+- Day 2 after earnings for entry
+
+**Real-Time Screening Process:**
+1. **Earnings Calendar:** Check who reported yesterday/last night
+2. **Reaction Scanner:** Look for >10% drops on earnings
+3. **Fundamental Filter:** Research actual results vs reaction severity
+4. **Current Market Context:** In weak markets, require stronger fundamentals
+
+**Live Earnings Tracking:**
+- Use Benzinga, Yahoo Finance for real-time reactions
+- Focus on quality names with overreactions
+- Avoid companies with real fundamental issues
+
+### SETUP 4: SYMPATHY SELLOFFS (Dynamic Conditions)
+
+**When This Setup Works Best:**
+- One company's bad news affecting sector peers
+- Clear competitive advantages for target company
+- Temporary guilt-by-association selling
+- Sector rotation creating opportunities
+
+**Real-Time Screening Process:**
+1. **News Scanning:** Look for sector-affecting news
+2. **Peer Analysis:** Find best companies in affected sector
+3. **Competitive Moat Check:** Verify advantages over problem company
+4. **Current Conditions:** Works best in any volatility environment
+
+### SETUP 5: GAP FILLS (Dynamic Conditions)
+
+**When This Setup Works Best:**
+- Overnight gaps >5% on no specific news
+- Quality companies with temporary displacement
+- Market structure supporting gap fills
+- First 2 hours of trading day
+
+**Real-Time Screening Process:**
+1. **Pre-Market Scan:** Check overnight gaps at 9:00 AM
+2. **News Verification:** Ensure no company-specific issues
+3. **Market Context:** Better success in stable/up markets
+4. **Time Sensitivity:** Monitor first 30-60 minutes for setup confirmation
+
+---
+
+## DYNAMIC RESOURCE ALLOCATION
+
+### HIGH OPPORTUNITY ENVIRONMENTS (VIX >23)
+
+**Screening Intensity:** 15-20 minutes (more opportunities available)
+**Setup Focus:** Primarily Setup 1, with Setup 4 secondary
+**Conviction Threshold:** Lower to 4+ (more opportunities merit lower bar)
+**Position Sizing:** Reduce to 4%/8% due to higher volatility
+**Daily Target:** 2-3 trades likely available
+
+**Optimal Websites:**
+- Finviz for oversold screening (primary)
+- TradingView for technical confirmation  
+- Google News for fundamental verification
+- Benzinga for real-time market news
+
+### LOW OPPORTUNITY ENVIRONMENTS (VIX <15)
+
+**Screening Intensity:** 5-10 minutes (few opportunities)
+**Setup Focus:** Setup 2 (Support) or Setup 5 (Gap Fill) most likely
+**Conviction Threshold:** Raise to 6+ (be very selective)
+**Position Sizing:** Can use full 5%/10% 
+**Daily Target:** 0-1 trades typical
+
+**Optimal Approach:**
+- Focus on watchlist of 15-20 quality names
+- Look for rare, high-quality technical setups
+- May go multiple days without trades
+- Quality over quantity especially important
+
+### NORMAL ENVIRONMENTS (VIX 15-21)
+
+**Screening Intensity:** 10 minutes
+**Setup Focus:** Adaptive based on current conditions
+**Conviction Threshold:** Standard 5+
+**Position Sizing:** Standard 5%/10%
+**Daily Target:** 1-2 trades available
+
+---
+
+## REAL-TIME ADAPTATION EXAMPLES
+
+### SCENARIO 1: VIX Spikes from 16 to 28 Overnight
+**Immediate Adjustments:**
+- Switch to Setup 1 focus (oversold opportunities)
+- Reduce position sizes to 4%/8%
+- Lower conviction threshold to 4+
+- Increase screening time to 20 minutes
+- Look for quality names down 10-20%
+
+### SCENARIO 2: Market Grinding Higher, VIX at 12
+**Immediate Adjustments:**
+- Focus on Setup 2 (support bounces) or Setup 5 (gap fills)
+- Use standard 5%/10% position sizes
+- Raise conviction threshold to 6+
+- Reduce screening to 5-10 minutes
+- May skip trading entirely some days
+
+### SCENARIO 3: Earnings Season Peak
+**Immediate Adjustments:**
+- Primary focus Setup 3 (earnings reactions)
+- Monitor evening earnings releases  
+- Trade Day 2 after earnings
+- Standard position sizing and conviction
+- Extended screening for earnings calendar
+
+---
+
+## EFFICIENCY MAXIMIZATION
+
+### STREAMLINED DAILY PROCESS
+
+**Market Assessment (2 minutes):**
+- Quick VIX check
+- SPY/QQQ trend assessment  
+- Current time and market status
+- Identify today's optimal setup focus
+
+**Targeted Screening (5-10 minutes):**
+- Focus only on optimal setup type
+- Use 2-3 best websites for that setup
+- Generate 2-3 candidates maximum
+- Deep dive only on best 1-2
+
+**Execution Decision (3 minutes):**
+- Score candidates using conviction system
+- Choose highest score >threshold
+- Calculate position size from account tracker
+- Execute if conviction sufficient
+
+### AVOID ANALYSIS PARALYSIS
+
+**Time Limits:**
+- Total screening: 15 minutes maximum
+- Per-stock analysis: 2 minutes maximum  
+- Final decision: 3 minutes maximum
+- If no clear setup: STOP and wait
+
+**Decision Framework:**
+1. Does current setup match optimal focus? (Y/N)
+2. Score >current threshold? (Y/N)  
+3. Within position sizing limits? (Y/N)
+4. All systems go? → EXECUTE
+
+---
+
+## DYNAMIC RED FLAGS
+
+### ENVIRONMENT-SPECIFIC AVOIDANCE
+
+**High Volatility (VIX >25) - Extra Careful:**
+- Avoid broken technical levels (may not hold)
+- Avoid overleveraged companies (bankruptcy risk)
+- Avoid momentum stocks (violent reversals)
+- Focus on quality large caps only
+
+**Low Volatility (VIX <15) - Be Selective:**
+- Avoid low-volume names (may not move)
+- Avoid complex situations (not worth effort)
+- Avoid anything questionable (few opportunities)
+- Focus on highest conviction only
+
+**Earnings Season - Company Specific:**
+- Avoid companies reporting within 3 days
+- Avoid biotech with binary events
+- Avoid recent IPOs (unpredictable reactions)
+- Focus on established companies with track records
+
+---
+
+## CONTINUOUS CALIBRATION
+
+### WEEKLY REVIEW (Sundays)
+- Which setup worked best this week?
+- Did VIX-based adjustments improve results?
+- Were position size adjustments appropriate?
+- Should conviction thresholds be modified?
+
+### MONTHLY CALIBRATION
+- Track setup performance by market environment
+- Adjust dynamic thresholds based on results
+- Update screening efficiency based on success
+- Evolve process based on market changes
+
+---
+
+**Remember: The market tells you what setup to focus on. Your job is to listen and adapt, not force a predetermined approach.**

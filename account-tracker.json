@@ -1,0 +1,38 @@
+{
+  "account": {
+    "current_balance": 30000,
+    "currency": "GBP",
+    "last_updated": "2025-01-15",
+    "platform": "Trading 212"
+  },
+  "position_sizing": {
+    "standard_percent": 5,
+    "exceptional_percent": 10,
+    "current_standard_size": 1500,
+    "current_exceptional_size": 3000
+  },
+  "recent_performance": {
+    "ytd_return_percent": 0,
+    "last_30_days_return_percent": 0,
+    "current_month_trades": 0,
+    "current_month_wins": 0,
+    "current_win_rate_percent": 60
+  },
+  "current_positions": {
+    "total_invested": 0,
+    "cash_available": 30000,
+    "percent_invested": 0,
+    "number_of_positions": 0
+  },
+  "settings": {
+    "auto_update_position_sizes": true,
+    "track_performance": true,
+    "preferred_setup_focus": "adaptive",
+    "risk_tolerance": "moderate"
+  },
+  "notes": {
+    "last_session_notes": "Starting fresh with Win More System V2",
+    "setup_focus_this_month": "To be determined based on market conditions",
+    "goals": "Win more trades than lose, build consistent habits"
+  }
+}

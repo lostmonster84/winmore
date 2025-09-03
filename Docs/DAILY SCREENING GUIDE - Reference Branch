@@ -1,0 +1,282 @@
+# DAILY SCREENING GUIDE - Reference Branch
+
+**This document supports the Win More System rules:**
+- 5% standard, 10% maximum positions
+- +10% profit, -5% stop ALWAYS
+- Maximum 3 trades daily
+- Current month allocation limits apply
+
+**Purpose:** Where to find each setup type efficiently in under 10 minutes
+
+---
+
+## 9:00 AM MORNING ROUTINE (3 Minutes)
+
+### POSITIONS REVIEW (60 seconds)
+**Check existing positions:**
+☐ Any at +10%? → Queue for sale at 3:00 PM
+☐ Any at -5%? → Should be stopped out automatically
+☐ Any stops not working? → Fix immediately
+
+### ACCOUNT STATUS (30 seconds)
+☐ Current account balance: £_____
+☐ Standard position (5%): £_____
+☐ Exceptional position (10%): £_____
+☐ Monthly allocation limit: ____% (September = 30%)
+☐ Currently invested: £_____ (___%)
+☐ Available to deploy: £_____
+
+### TODAY'S FOCUS (90 seconds)
+☐ Which setup am I hunting this month? Setup #____
+☐ How many trades taken today? ____ (max 3)
+☐ How many this week? ____
+☐ Last 10 trades win rate: ____%
+
+---
+
+## SETUP-SPECIFIC SCREENING
+
+### SETUP 1: OVERSOLD QUALITY BOUNCE
+
+**Where to Find:**
+1. **Finviz Screener** (finviz.com/screener.ashx)
+   - Market Cap: >$2B
+   - Price: >$20
+   - RSI(14): <40
+   - Performance (Day): <-8%
+   - 200-Day SMA: Price above SMA
+
+2. **TradingView Screener** (tradingview.com/screener)
+   - RSI < 40
+   - Price change (1D) < -8%
+   - Price > SMA200
+   - Market cap > 2B
+
+3. **News Check** (for each candidate):
+   - Google: "[TICKER] news today"
+   - If company-specific bad news = SKIP
+   - If just market fear = POTENTIAL SETUP
+
+**Quick Screen (2 minutes):**
+- Scan S&P 500 biggest losers
+- Filter for RSI <40
+- Check no bad news
+- Pick best 2-3 candidates
+
+### SETUP 2: SUPPORT BOUNCE
+
+**Where to Find:**
+1. **TradingView Charts** (individual stock analysis)
+   - Check 6-month chart for key support levels
+   - Look for 50-day or 200-day MA tests
+   - Verify 3+ previous bounces from level
+
+2. **StockCharts.com Predefined Scans:**
+   - "Bullish Bounce Candidates"
+   - "MA Support Tests"
+   - Filter for volume increase
+
+3. **Manual Watchlist** (maintain 10-15 quality names)
+   - AAPL, MSFT, GOOGL, AMZN, TSLA, etc.
+   - Check weekly which are near support
+   - Focus on names you understand
+
+**Quick Screen (3 minutes):**
+- Check your watchlist for MA tests
+- Verify volume increase today
+- Confirm previous bounces worked
+
+### SETUP 3: EARNINGS OVERREACTION
+
+**Where to Find:**
+1. **Earnings Whispers** (earningswhispers.com)
+   - Check "After Hours Movers"
+   - Look for >10% drops post-earnings
+   - Day 1: Research, Day 2: Consider entry
+
+2. **Benzinga** (benzinga.com/earnings)
+   - Real-time earnings reactions
+   - Filter for large-cap drops
+   - Read actual earnings report
+
+3. **Yahoo Finance Earnings Calendar**
+   - See who reports today/tonight
+   - Track reactions tomorrow morning
+   - Focus on quality names only
+
+**Quick Screen (Only during earnings season):**
+- Check overnight earnings reactions
+- Research why stock dropped >10%
+- If overreaction = potential Setup 3
+
+### SETUP 4: SYMPATHY SELLOFF
+
+**Where to Find:**
+1. **Sector Rotation Tracking:**
+   - When one big stock in sector drops
+   - Check if quality peers also down
+   - Look for "guilt by association"
+
+2. **Finviz Heatmap** (finviz.com/map.ashx)
+   - See which sectors red today
+   - Find best company in red sector
+   - Verify no company-specific issues
+
+3. **News Scanning:**
+   - "[SECTOR] stocks news today"
+   - If one company's problem affecting all
+   - Find the strongest name in the group
+
+**Quick Screen (Opportunistic):**
+- Only when major sector selloffs occur
+- Identify best-in-class in affected sector
+- Verify competitive advantages intact
+
+### SETUP 5: GAP FILL
+
+**Where to Find:**
+1. **Pre-market Gappers** (multiple sources):
+   - Benzinga pre-market movers
+   - MarketWatch gapping stocks
+   - Trading 212 "Trending" tab
+
+2. **Gap Screening Criteria:**
+   - Gap down >5% at open
+   - No company-specific news
+   - Above next support level
+   - Quality underlying business
+
+3. **Real-time Monitoring** (first 30 minutes):
+   - Watch how gaps behave
+   - Look for stabilization patterns
+   - Enter after 10:30 AM if setup holds
+
+**Quick Screen (Market open days only):**
+- Check gaps at 9:00 AM
+- Research why stock gapped
+- Queue for monitoring if no bad news
+
+---
+
+## EFFICIENT SCREENING WEBSITES
+
+### FREE RESOURCES (Your Core Tools)
+
+**Finviz.com** - Best overall screener
+- Use: Setup 1 (oversold), Setup 4 (sector view)
+- Filters: Market cap, RSI, performance, technical
+- Speed: Under 60 seconds for basic scan
+
+**TradingView.com** - Best charts and screeners
+- Use: All setups, technical confirmation
+- Charts: Essential for Setup 2 support levels
+- Cost: Free version sufficient for Win More System
+
+**Yahoo Finance** - News and earnings
+- Use: Setup 3 earnings reactions
+- Free comprehensive data
+- Earnings calendar and after-hours movers
+
+**Google News** - Company-specific research
+- Use: Verify no bad news for all setups
+- Search: "[TICKER] news today"
+- Critical for avoiding traps
+
+### PREMIUM (Optional for Advanced Users)
+
+**Trade Ideas** - Advanced scanning
+- Cost: $100/month
+- Use: Real-time setup alerts
+- Worth it: Only if trading daily
+
+**Benzinga Pro** - Professional news
+- Cost: $30/month
+- Use: Real-time earnings reactions
+- Worth it: During earnings seasons
+
+---
+
+## DAILY SCREENING SCHEDULE
+
+### 9:00-9:10 AM: PREPARATION
+- Review existing positions
+- Check account status and limits
+- Identify today's setup focus
+
+### 1:00-2:00 PM: PRE-MARKET SCAN
+- Gap screening (Setup 5)
+- Overnight news review
+- Setup 3 earnings reactions from last night
+
+### 3:00-3:30 PM: ACTIVE SCANNING
+- Setup 1: Finviz oversold scan
+- Setup 2: Watchlist support check  
+- Setup 4: Sector selloff opportunities
+- Pick best 1-2 candidates
+
+### 3:30-7:00 PM: EXECUTION WINDOW
+- Trade highest conviction setup
+- Maximum 3 trades
+- Close platform after trading
+
+### 9:00-9:10 PM: REVIEW
+- Update tracking
+- Plan tomorrow's focus
+- No more trading
+
+---
+
+## RED FLAGS TO AVOID (CRITICAL)
+
+### IMMEDIATE DISQUALIFIERS
+
+**For All Setups:**
+❌ Earnings report within 3 days (before or after)
+❌ FDA approvals pending (biotech)
+❌ Activist investor involvement
+❌ Recent insider selling spree
+❌ Debt/bankruptcy concerns
+❌ Price <$10 or Market cap <$1B
+
+**For Setup 1 (Oversold):**
+❌ Company-specific bad news (not just fear)
+❌ Below 200-day moving average  
+❌ Falling knife (still dropping rapidly)
+
+**For Setup 2 (Support):**
+❌ Support level broken previously
+❌ Volume declining on test
+❌ Bear market environment
+
+**For Setup 3 (Earnings):**
+❌ Guidance cut significantly
+❌ Revenue declining
+❌ Management credibility issues
+
+---
+
+## SCREENING DISCIPLINE
+
+### TIME LIMITS (Prevent Analysis Paralysis)
+- **Setup identification:** 5 minutes maximum
+- **News verification:** 2 minutes per stock
+- **Final decision:** 3 minutes maximum
+- **Total daily screening:** 10 minutes
+
+### DECISION FRAMEWORK
+1. **Does it match this month's setup?** If no → skip
+2. **Score 5+ on conviction scale?** If no → skip
+3. **Any red flags present?** If yes → skip
+4. **Within position sizing limits?** If no → skip
+5. **All checks pass?** → Take the trade
+
+### WHAT NOT TO DO
+❌ Screen all 5 setups daily (focus on one)
+❌ Analyze 20 different stocks (pick 2-3 best)
+❌ Wait for perfect setup (good enough is enough)
+❌ Keep screening after finding good trade (execute and stop)
+❌ Use obscure websites (stick to proven sources)
+
+---
+
+**Remember:** The best setup you actually take beats the perfect setup you never find. Keep screening simple, fast, and focused on this month's chosen pattern.

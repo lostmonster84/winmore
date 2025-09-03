@@ -1,40 +1,39 @@
 # 🏴‍☠️ OUTPOST: JAMES'S TRADING COMMAND CENTER
 
-**The Complete AI-Powered Trading System for £30K → £100K Transformation**
+**The Complete AI-Powered Trading System for Consistent Wins**
 
 ---
 
 ## 📊 **PROJECT OVERVIEW**
 
-**Outpost** is James's comprehensive trading operation - a sophisticated AI-powered system designed to transform £30,000 into £100,000 through disciplined, intelligent momentum trading on the Trading 212 platform.
+**Outpost** is James's comprehensive trading operation - a disciplined AI-powered system designed to win more trades than lose through consistent, intelligent trading on the Trading 212 platform.
 
 This isn't just another trading setup. It's a complete **trading command center** that combines:
 - Advanced AI trading advisor (Claude)
-- Systematic playbooks for every market condition  
+- Simple, focused trading methodology  
 - Real-time decision-making frameworks
 - Performance tracking and accountability systems
-- Risk management protocols
+- Conservative risk management protocols
 
-**Mission Statement:** "Transform £30,000 into £100,000 through aggressive but intelligent trading that respects momentum and captures daily opportunities."
+**Mission Statement:** "Win more trades than lose through disciplined execution and consistent profitability - account growth follows naturally."
 
 ---
 
 ## 🎯 **CORE OBJECTIVES**
 
 ### **Primary Goal**
-- **Starting Capital:** £30,000
-- **Target:** £100,000  
-- **Required Growth:** 233% total return
-- **Timeline:** 18-24 months
-- **Monthly Target:** 10-15% compound growth
+- **Focus:** Win more trades than lose
+- **Monthly Targets:** +1-8% (any green month = success)
+- **Position Sizing:** 5% standard, 10% maximum
 - **Platform:** Trading 212 (UK-based, ISA eligible)
+- **Success Metric:** 60% win rate target
 
 ### **Trading Philosophy**
-- **Hedge Fund Mindset:** Think like a PM, not a pension fund manager
-- **Momentum is Sacred:** 14-day protection window for catalyst-driven trades
-- **Concentration over Diversification:** Focus on A-grade setups
-- **Winners Run, Losers Cut:** Build cash from losers, never winners
-- **Intelligence over Rules:** Adapt to conditions, don't follow blindly
+- **Win Rate Over Win Size:** Singles, not home runs
+- **Mechanical Execution:** +10% profit, -5% stop, always
+- **Quality Over Quantity:** Maximum 3 trades daily
+- **One Setup Focus:** Master one pattern per month
+- **Capital Preservation:** Protect what we have first
 
 ---
 
@@ -56,50 +55,53 @@ This isn't just another trading setup. It's a complete **trading command center*
 - News sources and community platforms
 - Quality ratings and professional guidance
 
-**3. TRADING MODES** (Context-Adaptive)
-- **Oversold Hunter** (VIX ≥21) - Quick 3-7 day gains
-- **Earnings Momentum** (Season active) - 14-30 day rides  
-- **Portfolio Builder** (Stable markets) - 3-12 month positions
-- **Cash Preservation** (September/Risk-off) - Defensive
-- **Mixed Mode** - Combination strategies
+**3. THE 5 WINNING SETUPS** (Focus One Per Month)
+- **Setup 1:** Oversold Quality Bounce (70% win rate)
+- **Setup 2:** Support Bounce (68% win rate)  
+- **Setup 3:** Earnings Overreaction (65% win rate)
+- **Setup 4:** Sympathy Selloff (62% win rate)
+- **Setup 5:** Gap Fill (60% win rate)
 
 **4. RISK MANAGEMENT MATRIX**
-- Position sizing: 5% (C-grade) | 10% (B-grade) | 15% (A-grade) | 20% MAX
-- Correlation cluster monitoring
-- Stop-loss automation protocols
-- Portfolio heat limits (<15% unrealized loss)
-- Emergency circuit breakers
+- Position sizing: 5% (standard) | 10% (exceptional only)
+- Maximum 3 trades per day
+- Always -5% stops, +10% profits
+- Monthly allocation limits strictly followed
+- Dynamic position sizing based on current account value
 
 **5. SEASONAL POSITIONING SYSTEM**
-- **January-February:** 90-100% invested (ISA refresh, earnings)
-- **March-April:** 85-90% invested (continued strength)  
-- **May-August:** 50-70% invested (summer doldrums)
-- **September:** 20% invested (80% CASH - worst month)
-- **October:** 70% invested (volatility opportunities)
-- **November:** 100% invested (best month historically)
-- **December:** 90% invested (Santa rally)
+- **January:** 70% maximum invested
+- **February:** 80% maximum invested  
+- **March-April:** 70% maximum invested
+- **May:** 60% maximum invested
+- **June-July:** 50% maximum invested
+- **August:** 40% maximum invested
+- **September:** 30% maximum invested (most defensive)
+- **October:** 60% maximum invested
+- **November:** 80% maximum invested
+- **December:** 70% maximum invested
 
 ---
 
 ## ⚙️ **OPERATIONAL COMPONENTS**
 
 ### **Daily Execution Framework**
-1. **Morning Ritual** (Pre-market)
-   - Review overnight news on all holdings
-   - Check VIX level vs deployment scale
-   - Scan for gap-downs >5% (opportunities)
-   - Declare trading mode for the session
+1. **Morning Check** (9:00 AM - 3 minutes)
+   - Check positions for +10% profit targets
+   - Check positions for -5% stop losses
+   - Note current cash level and monthly allocation
+   - Identify today's setup focus
 
-2. **Active Monitoring** (Market hours)
-   - 30-minute momentum checks
-   - 2-hour sector rotation analysis  
-   - End-of-day portfolio screenshot
-   - Stop-loss trail adjustments
+2. **Trading Window** (3:00 PM onwards)
+   - Wait 30 minutes after market open
+   - Look for this month's chosen setup only
+   - Maximum 3 trades, 5-10% positions
+   - Execute mechanically when conviction score >5
 
-3. **Evening Review**
-   - Update performance metrics
-   - Plan next day's catalysts
-   - Document lessons learned
+3. **Evening Review** (9:00 PM - 1 minute)
+   - Update win/loss tracker
+   - Note tomorrow's focus
+   - Close trading platform
 
 ### **AI Integration Protocols**
 - **Claude Activation:** Complete system prompt in **[CLAUDE.md](./CLAUDE.md)**
@@ -119,26 +121,19 @@ This isn't just another trading setup. It's a complete **trading command center*
 
 ## 📈 **STRATEGIC METHODOLOGIES**
 
-### **The Oversold Hunter System**
-- **37 Historical Patterns** with documented success rates
-- **0-10 Confluence Scoring** for entry validation
-- **VIX ≥21 Deployment** (updated 2025 thresholds)
-- **3-7 Day Hold Periods** for quick gains
-- **Target:** 5-12% gains per trade
+### **The 5 Setup System**
+- **One Setup Focus Per Month** - master before moving to next
+- **Conviction Scoring 0-10** for entry validation
+- **VIX Opportunity Indicator** (not attack signal)
+- **3-14 Day Hold Periods** depending on setup
+- **Target:** +10% profits, -5% stops mechanically
 
-### **Earnings Momentum Operations**
-- **30-Day Window Framework** from research to exit
-- **Whisper Number Dynamics** vs official estimates
-- **Conference Call Decoder** for CEO language translation
-- **14-Day Sacred Window** - no trimming momentum winners
-- **Target:** 14-30 day momentum rides
-
-### **Portfolio Conviction Architecture**  
-- **Fortress Positions:** 15-20% (unassailable moats)
-- **Pillar Positions:** 10-15% (strong competitive advantage)
-- **Foundation Positions:** 7-10% (solid fundamentals)
-- **Satellite Positions:** 3-5% (speculative upside)
-- **Target:** 3-12 month strategic holdings
+### **Position Sizing Methodology**
+- **Standard Position (5%):** Account Value × 0.05
+- **Exceptional Position (10%):** Account Value × 0.10 (rare)
+- **Monthly Maximum:** Account Value × Monthly %
+- **Never Fixed Amounts:** Always calculate from current balance
+- **Quality Over Quantity:** Better to trade smaller and win consistently
 
 ---
 
@@ -146,39 +141,41 @@ This isn't just another trading setup. It's a complete **trading command center*
 
 ### **Position Sizing Calculator**
 ```
-Formula: (Portfolio Value × Risk%) ÷ Entry Price
-Example: £30,000 × 10% = £3,000 position ÷ £50/share = 60 shares
+Standard Position: Current Account × 5%
+Exceptional Position: Current Account × 10% (score 8-10 only)
+Example: £35,000 × 5% = £1,750 position
 ```
 
-### **Correlation Cluster Monitoring**
-- **Maximum 2 positions** per high-correlation cluster
-- **Sector limits:** <40% in any single sector
-- **Geographic limits:** 1 position max in China ADRs
-- **Daily heat check:** <15% total unrealized losses
+### **Risk Management Rules**
+- **Maximum 3 trades daily** - quality over quantity
+- **One setup focus per month** - no mixing patterns
+- **Strict monthly allocation limits** - respect seasonal positioning
+- **Always -5% stops, +10% profits** - no exceptions
+- **Dynamic position sizing** - never use fixed amounts
 
 ### **Emergency Protocols**
-- **3 losses in a row:** 24-hour mandatory trading halt
-- **-10% weekly:** Full position review required  
-- **-15% monthly:** Complete strategy audit
-- **-20% drawdown:** Move to 50% cash minimum
-- **Black swan event:** 100% cash for 48 hours
+- **3 losses in a row:** Take a day off, reset confidence
+- **Down 10% in month:** Stop trading for a week, review all trades
+- **Any loss >5%:** Review why stop didn't work
+- **System breakdown:** Return to 5% positions only
 
 ---
 
 ## 📊 **PERFORMANCE TRACKING & ACCOUNTABILITY**
 
 ### **Success Metrics Dashboard**
-- **Progress to £100K:** Current portfolio value vs target
-- **Monthly Returns:** Actual vs 10-15% target  
-- **Win Rate by Strategy:** Track effectiveness of each mode
-- **Momentum Window Respect:** Must maintain 100% compliance
-- **Position Sizing Discipline:** Adherence to 5-10-15% framework
+- **Win Rate:** Target 60% (6 wins out of 10 trades)
+- **Monthly Returns:** +1-8% (any green = success)  
+- **Setup Mastery:** Track win rate by setup type
+- **Rule Compliance:** Stops, profits, position sizes
+- **Process Discipline:** Following the system consistently
 
-### **Growth Trajectory Checkpoints**
-- **£30K → £40K:** Find what works (5-10% positions)
-- **£40K → £60K:** Scale winning strategies (10-15% positions)  
-- **£60K → £80K:** Compound aggressively (15-20% A+ setups)
-- **£80K → £100K:** Protect and complete (back to 10-15%)
+### **Realistic Monthly Expectations**
+- **Great Month:** +5-8% 
+- **Good Month:** +3-5%  
+- **Okay Month:** +1-3%
+- **Success:** Any green number
+- **Year 1 Target:** +25-40% annually (excellent result)
 
 ### **Weekly Review Protocol**
 - **Portfolio analysis:** All positions for momentum status
@@ -191,10 +188,10 @@ Example: £30,000 × 10% = £3,000 position ÷ £50/share = 60 shares
 ## 🔄 **SYSTEM EVOLUTION & UPDATES**
 
 ### **Version Control**
-- **CLAUDE.md V4.0:** Streamlined command center (September 2025)
-- **MASTER PLAYBOOK V4.0:** Complete system update with 2025 VIX reality
-- **VIX PLAYBOOK:** Updated thresholds reflecting market structure changes
-- **Continuous refinement** based on performance data and market evolution
+- **CLAUDE.md V2:** WIN MORE SYSTEM - Focus on consistency over aggression
+- **OUTPOST.md:** Updated to reflect realistic, disciplined approach
+- **Trading System V5:** Simple, unified methodology
+- **Continuous refinement** based on win rate performance and rule adherence
 
 ### **Adaptation Mechanisms**
 - **Market Regime Recognition:** VIX-based deployment scales
@@ -206,17 +203,17 @@ Example: £30,000 × 10% = £3,000 position ÷ £50/share = 60 shares
 
 ## 🎯 **SUCCESS EQUATION**
 
-**Outpost's Formula for £70,000 Profit:**
+**Outpost's Formula for Consistent Wins:**
 
 ```
-£30,000 Starting Capital
-+ Systematic Discipline (follow playbooks flexibly) 
-+ Intelligent Conviction (appropriate position sizing)
-+ Momentum Respect (14-day sacred window)
-+ Risk Management (stops always active)
-+ Market Adaptability (mode switching based on conditions)
+Current Account Value
++ Systematic Discipline (follow the rules always) 
++ Conservative Position Sizing (5-10% maximum)
++ Mechanical Execution (-5% stops, +10% profits)
++ Setup Focus (one pattern per month)
++ Quality Over Quantity (max 3 trades daily)
 + AI-Powered Decision Making (Claude integration)
-= £100,000 TARGET ACHIEVED
+= MORE WINS THAN LOSSES = SUCCESS
 ```
 
 ---
@@ -225,14 +222,14 @@ Example: £30,000 × 10% = £3,000 position ÷ £50/share = 60 shares
 
 **What Makes This Different:**
 
-1. **AI-Human Hybrid Intelligence:** Claude's analytical power + James's execution
-2. **Complete System Integration:** Every component works together  
-3. **Real-World Tested:** Based on actual market patterns and platform constraints
-4. **Emotionally Intelligent:** Built-in contradiction prevention and momentum respect
-5. **Continuously Evolving:** Updates based on performance and changing markets
+1. **AI-Human Hybrid Intelligence:** Claude's analytical power + James's disciplined execution
+2. **Realistic Expectations:** Win rate focus, not unrealistic growth targets  
+3. **Contradiction-Free System:** Every rule supports the others
+4. **Mechanically Simple:** Clear rules, no complex decision trees
+5. **Risk-First Approach:** Capital preservation before profit maximization
 6. **UK-Optimized:** Trading 212 platform, ISA optimization, tax efficiency
 
-**This isn't just trading - it's systematic wealth building through intelligent market participation.**
+**This isn't just trading - it's systematic habit building for consistent profitability.**
 
 ---
 
@@ -267,10 +264,10 @@ Example: £30,000 × 10% = £3,000 position ÷ £50/share = 60 shares
 
 ---
 
-**"Stop Waiting for Perfect. Start Trading Reality."**
+**"Win More Often Than You Lose. That's The Only Rule That Matters."**
 
-*Outpost - Where Discipline Meets Opportunity*
+*Outpost - Where Consistency Meets Opportunity*
 
 **Last Updated:** September 3, 2025  
 **System Status:** ACTIVE - Ready for deployment  
-**Target:** £100,000 | **Timeline:** 18-24 months | **Method:** Intelligent Aggression
+**Goal:** More wins than losses | **Method:** Disciplined Execution | **Success:** Green months

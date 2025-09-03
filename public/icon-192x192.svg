@@ -1,0 +1,12 @@
+
+    <svg width="192" height="192" xmlns="http://www.w3.org/2000/svg">
+      <rect width="192" height="192" fill="#0ea5e9" rx="32"/>
+      <text x="96" y="105.6" 
+            font-family="monospace" 
+            font-size="24" 
+            font-weight="bold" 
+            fill="white" 
+            text-anchor="middle" 
+            dominant-baseline="central">📈</text>
+    </svg>
+  

@@ -1,0 +1,321 @@
+# TRADE LOGGING TEMPLATES - Reference Branch
+
+**This document supports the Win More System rules:**
+- 5% standard, 10% maximum positions
+- +10% profit, -5% stop ALWAYS
+- Maximum 3 trades daily
+- Current month allocation limits apply
+
+**Purpose:** Track every trade to identify patterns and improve win rate
+
+---
+
+## DAILY TRADE LOG TEMPLATE
+
+### TRADE ENTRY RECORD
+```
+Date: ___________
+Time: ___________
+Stock: ___________
+Setup Type: [1-5] - [Name]
+Conviction Score: ___/10
+
+ENTRY DETAILS:
+Entry Price: £_____
+Position Size: £_____ (___% of account)
+Account Balance: £_____
+Stop Loss: £_____ (-5%)
+Take Profit: £_____ (+10%)
+
+REASONING:
+Why this setup: ________________________________
+News context: _________________________________ 
+Technical confirmation: _______________________
+Risk factors noted: ___________________________
+```
+
+### TRADE EXIT RECORD
+```
+Exit Date: ___________
+Exit Time: ___________
+Exit Price: £_____
+Exit Reason: [Hit target/Hit stop/Manual decision]
+
+RESULTS:
+P&L £: _____
+P&L %: _____
+Hold Time: ____ days
+Account After Trade: £_____
+
+LESSONS LEARNED:
+What worked: __________________________________
+What didn't work: _____________________________
+Would I take this again? Y/N
+Improvement notes: ____________________________
+```
+
+---
+
+## WEEKLY REVIEW TEMPLATE
+
+### WEEK OF: ___________
+
+**TRADING STATISTICS:**
+- Total Trades: ____
+- Winning Trades: ____  
+- Losing Trades: ____
+- Win Rate: ____%
+- Total P&L: £____
+- Account Start Week: £____
+- Account End Week: £____
+- Weekly Return: ____%
+
+**SETUP PERFORMANCE:**
+- Setup 1 trades: ____ (Win rate: ___%)
+- Setup 2 trades: ____ (Win rate: ___%)
+- Setup 3 trades: ____ (Win rate: ___%)
+- Setup 4 trades: ____ (Win rate: ___%)
+- Setup 5 trades: ____ (Win rate: ___%)
+- Best performing setup: ____
+- Worst performing setup: ____
+
+**RULE ADHERENCE:**
+- Trades within position size limits: ___/___
+- Proper stops set: ___/___
+- Proper targets set: ___/___
+- Days with >3 trades: ____
+- Manual exits (not +10%/-5%): ____
+
+**NEXT WEEK IMPROVEMENTS:**
+1. _________________________________
+2. _________________________________
+3. _________________________________
+
+---
+
+## MONTHLY REVIEW TEMPLATE
+
+### MONTH: ___________
+
+**ACCOUNT PERFORMANCE:**
+- Starting Balance: £____
+- Ending Balance: £____
+- Monthly Return: ____%
+- Target for month: ____%
+- Beats target? Y/N
+
+**TRADING DISCIPLINE:**
+- Total trades: ____
+- Average trades per day: ____
+- Win Rate: ____%
+- Target win rate: 60%
+- Meets target? Y/N
+
+**SETUP MASTERY:**
+- Primary setup focus: Setup ____
+- Trades of primary setup: ____
+- Win rate of primary setup: ____%
+- Ready to move to new setup? Y/N
+
+**RISK MANAGEMENT:**
+- Largest single loss: ____%
+- Largest position size: ____%
+- Days over monthly allocation: ____
+- Emergency stops triggered: ____
+
+**LESSONS FOR NEXT MONTH:**
+1. Best decision made: _________________________
+2. Worst decision made: _______________________
+3. Pattern I need to avoid: ___________________
+4. Pattern I should repeat: ____________________
+5. Focus for next month: _______________________
+
+---
+
+## SETUP-SPECIFIC TRACKING
+
+### SETUP 1: OVERSOLD QUALITY BOUNCE
+```
+WINNING EXAMPLES:
+Stock: _____ | Entry: £___ | Exit: £___ | Days: ___ | Return: ___%
+Stock: _____ | Entry: £___ | Exit: £___ | Days: ___ | Return: ___%
+Stock: _____ | Entry: £___ | Exit: £___ | Days: ___ | Return: ___%
+
+LOSING EXAMPLES:
+Stock: _____ | Entry: £___ | Exit: £___ | Days: ___ | Return: ___%
+Stock: _____ | Entry: £___ | Exit: £___ | Days: ___ | Return: ___%
+
+PATTERN RECOGNITION:
+Common winner traits: _________________________________
+Common loser traits: __________________________________
+Best RSI range for entry: _____________________________
+Best entry time of day: _______________________________
+Optimal hold time: ____________________________________
+```
+
+### SETUP 2: SUPPORT BOUNCE
+```
+WINNING EXAMPLES:
+Stock: _____ | Support Level: £___ | Entry: £___ | Exit: £___ | Return: ___%
+Stock: _____ | Support Level: £___ | Entry: £___ | Exit: £___ | Return: ___%
+
+LOSING EXAMPLES:
+Stock: _____ | Support Level: £___ | Entry: £___ | Exit: £___ | Return: ___%
+Stock: _____ | Support Level: £___ | Entry: £___ | Exit: £___ | Return: ___%
+
+PATTERN RECOGNITION:
+Most reliable support type: ___________________________
+Volume confirmation needed: Y/N
+Best market conditions: _______________________________
+Support breaks warning signs: _________________________
+```
+
+### [Continue for Setups 3, 4, and 5...]
+
+---
+
+## CONVICTION SCORE TRACKING
+
+### SCORE 5-6 TRADES (Standard 5% positions)
+- Total trades: ____
+- Win rate: ____%
+- Average return: ____%
+- Should I be more selective? Y/N
+
+### SCORE 7-8 TRADES (Could use 10% positions)
+- Total trades: ____  
+- Win rate: ____%
+- Average return: ____%
+- Did I size appropriately? Y/N
+
+### SCORE 9-10 TRADES (Exceptional setups)
+- Total trades: ____
+- Win rate: ____%  
+- Average return: ____%
+- Were these truly exceptional? Y/N
+
+**CONVICTION CALIBRATION:**
+Am I scoring too high? (Win rate <60%) Y/N
+Am I scoring too low? (Missing good opportunities) Y/N
+Is my scoring consistent with results? Y/N
+
+---
+
+## MISTAKE TRACKING
+
+### COMMON MISTAKES CHECKLIST
+```
+POSITION SIZING ERRORS:
+□ Used fixed amount instead of % calculation
+□ Exceeded 10% maximum position size
+□ Undersized good opportunities
+□ Oversized mediocre setups
+
+STOP LOSS ERRORS:
+□ Moved stop loss lower after entry
+□ Used mental stop instead of actual order
+□ Set stop wider than -5%
+□ Ignored stop loss signals
+
+TARGET ERRORS:
+□ Got greedy, didn't take +10%
+□ Moved target higher mid-trade
+□ Sold too early (before target)
+□ Held hoping for more
+
+SETUP ERRORS:
+□ Traded setup not focus of month
+□ Mixed multiple setups same day
+□ Forced trades when none available
+□ Ignored conviction scoring
+
+TIMING ERRORS:
+□ Traded before 30-min wait
+□ Took 4th+ trade in single day
+□ Traded when emotionally upset
+□ Traded outside market hours
+```
+
+**Most Frequent Mistake:** _________________________
+**Mistake Cost This Month:** £_____
+**Prevention Strategy:** ____________________________
+
+---
+
+## SUCCESS TRACKING
+
+### POSITIVE PATTERNS TO REPEAT
+```
+BEST TRADING DAYS:
+Date: _____ | Trades: _ | P&L: £___ | What made it successful: ____________
+Date: _____ | Trades: _ | P&L: £___ | What made it successful: ____________
+Date: _____ | Trades: _ | P&L: £___ | What made it successful: ____________
+
+BEST INDIVIDUAL TRADES:
+Stock: _____ | Setup: _ | P&L: £___ | Why it worked so well: ____________
+Stock: _____ | Setup: _ | P&L: £___ | Why it worked so well: ____________
+Stock: _____ | Setup: _ | P&L: £___ | Why it worked so well: ____________
+
+STREAK TRACKING:
+Current winning streak: ____
+Longest winning streak: ____
+Current losing streak: ____
+Longest losing streak: ____
+```
+
+### CONFIDENCE BUILDING
+```
+MILESTONE ACHIEVEMENTS:
+□ First +10% winner
+□ First 3-win day
+□ First profitable week
+□ First profitable month
+□ 60% win rate achieved
+□ No rule violations for full week
+□ Successfully mastered Setup 1
+□ Account grew 5% in month
+□ Account grew 10% in month
+□ Consistent green months
+```
+
+---
+
+## SIMPLE DAILY TRACKER
+
+**For those who want minimal logging:**
+
+```
+Date | Stock | Setup | Size% | Entry | Exit | P&L% | Win/Loss | Notes
+____|______|_______|_______|_______|______|______|__________|_______
+     |      |       |       |       |      |      |          |
+     |      |       |       |       |      |      |          |
+     |      |       |       |       |      |      |          |
+
+Weekly: Trades____ Wins____ Win Rate____%
+Monthly: Trades____ Wins____ Win Rate____% Account: Start£____ End£____
+```
+
+---
+
+## REVIEW SCHEDULE
+
+### DAILY (1 minute):
+- Log trade details immediately after execution
+- Note exit when position closes
+- Update daily tracker
+
+### WEEKLY (10 minutes, Sunday):
+- Complete weekly review template  
+- Calculate win rates by setup
+- Identify patterns and improvements
+- Plan focus for next week
+
+### MONTHLY (30 minutes, first Sunday):
+- Complete monthly review template
+- Analyze account performance vs targets
+- Decide on next month's setup focus
+- Set improvement goals
+
+---
+
+**Remember:** The best traders are also the best record keepers. Your log is your competitive advantage - use it to identify what works and eliminate what doesn't.

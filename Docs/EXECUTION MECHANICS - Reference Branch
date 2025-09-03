@@ -1,0 +1,227 @@
+# EXECUTION MECHANICS - Reference Branch
+
+**This document supports the Win More System rules:**
+- 5% standard, 10% maximum positions
+- +10% profit, -5% stop ALWAYS
+- Maximum 3 trades daily
+- Current month allocation limits apply
+
+**Purpose:** Step-by-step Trading 212 execution guide with exact button sequences
+
+---
+
+## POSITION SIZE CALCULATION
+
+### DYNAMIC SIZING FORMULA
+```
+Standard Position (5%): Current Account Value × 0.05
+Exceptional Position (10%): Current Account Value × 0.10
+
+Examples:
+£35,000 account × 5% = £1,750 position
+£42,000 account × 5% = £2,100 position
+£28,000 account × 10% = £2,800 position (exceptional only)
+```
+
+### NEVER USE FIXED AMOUNTS
+❌ Wrong: "Always use £1,500 positions"
+✅ Right: "Always calculate 5% of current balance"
+
+**Why:** As account grows, position sizes should grow proportionally
+
+---
+
+## TRADING 212 STEP-BY-STEP EXECUTION
+
+### PLACING A BUY ORDER
+
+**Step 1: Calculate Position Size**
+- Check current account balance in Trading 212
+- Calculate 5% (standard) or 10% (exceptional score 8-10)
+- Write down the £ amount before starting
+
+**Step 2: Find the Stock**
+- Type ticker symbol in search box
+- Click on stock name to open details
+- Click "BUY" button (large blue button)
+
+**Step 3: Order Details**
+- **Order Type:** Market Order (for immediate execution)
+- **Quantity:** Click "£" tab (not shares tab)
+- **Amount:** Enter your calculated £ position size
+- **Stop Loss:** Set to -5% from current price
+- **Take Profit:** Set to +10% from current price
+
+**Step 4: Review Before Execution**
+- Double-check position size matches calculation
+- Confirm stop loss is -5% 
+- Confirm take profit is +10%
+- Review estimated FX costs (if US stock)
+
+**Step 5: Execute**
+- Click "BUY" to execute
+- Screenshot confirmation for records
+- Note exact entry time and price
+
+### SETTING STOPS AND TARGETS
+
+**Automatic Setup (Recommended):**
+- Set stop and target when placing initial order
+- Trading 212 will execute automatically
+- No emotion involved in exit decisions
+
+**Manual Setup (If needed):**
+1. Go to "Portfolio" tab
+2. Find your position
+3. Click the "gear" icon next to position
+4. Select "Stop Loss" → Set at -5%
+5. Select "Take Profit" → Set at +10%
+6. Save both orders
+
+### ORDER TYPES EXPLAINED
+
+**Market Order:**
+- Executes immediately at current market price
+- Use for entries when setup is clear
+- Small slippage acceptable for speed
+
+**Limit Order:**
+- Only executes at your specified price or better
+- Use if stock moving fast and you want specific entry
+- Risk: might not fill if price gaps away
+
+**For Win More System: Use Market Orders**
+- Speed of execution > penny optimization
+- Setups are time-sensitive
+- -5% stop protects against bad fills
+
+---
+
+## COMMON EXECUTION ERRORS TO AVOID
+
+### POSITION SIZING ERRORS
+❌ "£2,000 feels about right" → Use calculated amount
+❌ "I'll round up to £2,500" → Stick to 5% exactly  
+❌ "This one's really good, £4,000" → 10% maximum, only score 8-10
+❌ "I'll use yesterday's calculation" → Always use current balance
+
+### STOP LOSS ERRORS
+❌ Setting stop at -7% ("bit more room") → Always -5%
+❌ Moving stop lower after entry → Never move stops down
+❌ "I'll set it later" → Set immediately with order
+❌ Using mental stops → Must be actual orders in system
+
+### TARGET ERRORS  
+❌ "I'll see how it goes" → Always set +10% target
+❌ "Maybe I'll hold for +15%" → Stick to mechanical +10%
+❌ Moving target higher → Take profits mechanically
+❌ "Just a bit more..." → Greed destroys consistency
+
+### TIMING ERRORS
+❌ Trading before 3:00 PM → Wait 30 minutes after open
+❌ Trading on news reactions → Let initial moves settle
+❌ Taking 4th trade of day → Maximum 3 trades daily
+❌ Trading when confused → Skip unclear setups
+
+---
+
+## FX COSTS AND ISA OPTIMIZATION
+
+### FX COSTS (US Stocks)
+- **Cost:** 0.15% each way (0.30% round trip)
+- **Example:** £2,000 position = £6 round trip cost
+- **Factor into targets:** Still profitable at +10%
+
+### ISA vs INVEST ACCOUNT
+**Use ISA for:**
+- Growth stocks (higher volatility)
+- Larger position sizes
+- Tax-free gains (£20,000 annual limit)
+
+**Use INVEST for:**
+- Positions over ISA limit
+- Conservative dividend stocks
+- International diversification
+
+### TRADING HOURS OPTIMIZATION
+**Pre-market (1:00-2:30 PM BST):**
+- Review overnight news
+- Identify potential setups
+- Calculate position sizes
+- NO TRADING until market open
+
+**Market Hours (2:30-9:00 PM BST):**
+- Wait until 3:00 PM for first trades
+- Execute setups between 3:00-8:00 PM
+- Avoid last 30 minutes (choppy)
+
+**After Hours:**
+- Review trades
+- Update tracking
+- Plan tomorrow
+
+---
+
+## MOBILE APP EXECUTION
+
+**When using Trading 212 mobile:**
+1. Same process as desktop
+2. Use "£" amount entry (not shares)
+3. Set stops/targets immediately
+4. Screenshot confirmations
+5. Double-check FX costs
+
+**Mobile-Specific Tips:**
+- Larger finger-friendly buttons
+- Portrait mode easier for calculations
+- Screenshots save to photos automatically
+
+---
+
+## EXECUTION DISCIPLINE CHECKLIST
+
+**Before Every Trade:**
+☐ Calculated exact position size (5% or 10%)
+☐ Confirmed setup scores 5+ points
+☐ Market has been open >30 minutes
+☐ This is trade #1, #2, or #3 today (not #4+)
+☐ Account is within monthly allocation limits
+
+**During Trade Entry:**
+☐ Using correct £ amount (not approximation)
+☐ Set -5% stop loss with order
+☐ Set +10% take profit with order
+☐ Reviewed FX costs if US stock
+☐ Screenshot confirmation
+
+**After Trade Execution:**
+☐ Note entry price and time
+☐ Confirm stops/targets are active
+☐ Update position tracking
+☐ Close platform (avoid overmonitoring)
+
+---
+
+## EMERGENCY PROCEDURES
+
+**If Stop Loss Fails:**
+1. Immediately sell at market price
+2. Take the loss (don't hope for recovery)
+3. Review why stop didn't execute
+4. Contact Trading 212 if technical issue
+
+**If Price Gaps Through Stops:**
+1. Accept the loss (gaps happen)
+2. Don't chase with larger positions
+3. Continue following system rules
+4. Log experience for future reference
+
+**If Trading 212 Platform Issues:**
+1. Don't panic about open positions
+2. Contact support immediately
+3. Use mobile app as backup
+4. Don't make emotional decisions
+
+---
+
+**Remember:** Perfect execution of average setups beats average execution of perfect setups. Mechanical consistency wins over time.

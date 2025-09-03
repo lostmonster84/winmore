@@ -1,0 +1,12 @@
+
+    <svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+      <rect width="512" height="512" fill="#0ea5e9" rx="85.33333333333333"/>
+      <text x="256" y="281.6" 
+            font-family="monospace" 
+            font-size="64" 
+            font-weight="bold" 
+            fill="white" 
+            text-anchor="middle" 
+            dominant-baseline="central">📈</text>
+    </svg>
+  

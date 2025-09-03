@@ -1,0 +1,383 @@
+# ADAPTIVE RULES ENGINE - Reference Branch
+
+**This document supports the Win More System V3:**
+- Reads account-tracker.json for current status
+- Adapts all rules based on real-time market conditions
+- Maintains core discipline while staying flexible
+
+**Purpose:** Dynamic rule adjustments that respond intelligently to changing market conditions
+
+---
+
+## CORE ADAPTIVE FRAMEWORK
+
+### UNCHANGING PRINCIPLES (NEVER MODIFY)
+- **Win Rate Focus:** More wins than losses always the goal
+- **Mechanical Exits:** +10% profit, -5% stop loss, no exceptions
+- **Daily Limits:** Maximum 3 trades per day, quality over quantity
+- **Position Sizing Logic:** Always percentage-based, never fixed amounts
+- **Risk Management:** Capital preservation first, profits second
+
+### ADAPTIVE VARIABLES (CHANGE WITH CONDITIONS)
+- **Position Size Percentages:** 3-5% standard, 6-10% exceptional  
+- **Allocation Limits:** 20-90% invested depending on environment
+- **Conviction Thresholds:** 4-7 points depending on opportunity availability
+- **Setup Focus:** Optimal pattern based on current market characteristics
+- **Screening Intensity:** 5-20 minutes based on opportunity environment
+
+---
+
+## MARKET ENVIRONMENT CLASSIFICATION
+
+### ENVIRONMENT DETECTION ALGORITHM
+```
+Step 1: Get Current VIX Level
+Step 2: Calculate 20-day VIX Average  
+Step 3: Get SPY/QQQ 5-day and 20-day Returns
+Step 4: Classify Current Environment
+
+LOW VOLATILITY + UPTREND (VIX <15, SPY +ve):
+- Environment: "Grinding Higher" 
+- Opportunity Level: LOW
+- Primary Setups: 2 (Support), 5 (Gap Fill)
+
+LOW VOLATILITY + SIDEWAYS (VIX <15, SPY flat):
+- Environment: "Boring Market"
+- Opportunity Level: VERY LOW  
+- Primary Setups: 2 (Support) only
+
+MEDIUM VOLATILITY + UPTREND (VIX 15-21, SPY +ve):
+- Environment: "Healthy Market"
+- Opportunity Level: MEDIUM
+- Primary Setups: All setups available
+
+MEDIUM VOLATILITY + DOWNTREND (VIX 15-21, SPY -ve):
+- Environment: "Normal Correction" 
+- Opportunity Level: MEDIUM
+- Primary Setups: 1 (Oversold), 4 (Sympathy)
+
+HIGH VOLATILITY + ANY DIRECTION (VIX >21):
+- Environment: "Opportunity Rich"
+- Opportunity Level: HIGH
+- Primary Setups: 1 (Oversold), 3 (Earnings), 4 (Sympathy)
+
+EXTREME VOLATILITY (VIX >30):
+- Environment: "Crisis/Panic"
+- Opportunity Level: MAXIMUM
+- Primary Setups: 1 (Oversold) exclusively
+```
+
+---
+
+## DYNAMIC POSITION SIZING ENGINE
+
+### BASE POSITION SIZE CALCULATION
+```python
+def calculate_position_sizes(account_balance, vix_level, account_performance):
+    # Base percentages
+    standard_base = 5.0
+    exceptional_base = 10.0
+    
+    # VIX adjustments
+    if vix_level > 25:
+        volatility_adjustment = -1.0  # Reduce for high volatility
+    elif vix_level < 15:
+        volatility_adjustment = 0.0   # Normal in low volatility
+    else:
+        volatility_adjustment = 0.0   # Normal range
+    
+    # Performance adjustments  
+    if account_performance < -10:  # Down >10% recently
+        performance_adjustment = -1.0
+    elif account_performance > 20:  # Up >20% recently
+        performance_adjustment = 0.5  # Slightly more aggressive
+    else:
+        performance_adjustment = 0.0
+    
+    # Calculate final percentages
+    standard_percent = max(3.0, standard_base + volatility_adjustment + performance_adjustment)
+    exceptional_percent = max(6.0, exceptional_base + volatility_adjustment*2 + performance_adjustment)
+    
+    return standard_percent, exceptional_percent
+```
+
+### EXAMPLES OF DYNAMIC SIZING
+```
+Account: £35,000, VIX: 14, Performance: +5%
+→ Standard: 5% (£1,750), Exceptional: 10% (£3,500)
+
+Account: £35,000, VIX: 28, Performance: +5%  
+→ Standard: 4% (£1,400), Exceptional: 8% (£2,800)
+
+Account: £35,000, VIX: 18, Performance: -12%
+→ Standard: 4% (£1,400), Exceptional: 8% (£2,800)
+
+Account: £48,000, VIX: 16, Performance: +25%
+→ Standard: 5.5% (£2,640), Exceptional: 10.5% (£5,040)
+```
+
+---
+
+## ADAPTIVE ALLOCATION SYSTEM
+
+### DYNAMIC ALLOCATION CALCULATION
+```python
+def calculate_max_allocation(vix_level, market_trend, current_month):
+    base_allocation = {
+        "January": 50, "February": 60, "March": 50, "April": 50,
+        "May": 40, "June": 30, "July": 30, "August": 30,
+        "September": 20, "October": 40, "November": 60, "December": 50
+    }
+    
+    # Start with seasonal base
+    allocation = base_allocation[current_month]
+    
+    # VIX adjustments (opportunity-based)
+    if vix_level > 25:
+        allocation += 30  # Crisis = opportunity
+    elif vix_level > 21:
+        allocation += 20  # High vol = more opportunities
+    elif vix_level > 17:
+        allocation += 10  # Moderate vol = some opportunities
+    elif vix_level < 15:
+        allocation -= 10  # Low vol = fewer opportunities
+    
+    # Trend adjustments
+    if market_trend == "Strong Uptrend":
+        allocation += 10
+    elif market_trend == "Strong Downtrend":
+        allocation += 5   # Contrarian opportunities
+    elif market_trend == "Sideways":
+        allocation -= 5
+    
+    # Cap at reasonable limits
+    return min(90, max(20, allocation))
+```
+
+### ALLOCATION EXAMPLES
+```
+September + VIX 35 + Downtrend:
+Base 20% + VIX 30% + Trend 5% = 55% max allocation
+
+November + VIX 12 + Uptrend:  
+Base 60% + VIX -10% + Trend 10% = 60% max allocation
+
+March + VIX 24 + Sideways:
+Base 50% + VIX 20% + Trend -5% = 65% max allocation
+```
+
+---
+
+## DYNAMIC CONVICTION THRESHOLDS
+
+### OPPORTUNITY-BASED SCORING ADJUSTMENTS
+```python
+def get_conviction_threshold(vix_level, opportunity_count_today):
+    base_threshold = 5
+    
+    # Adjust based on opportunity availability
+    if vix_level > 25 or opportunity_count_today > 10:
+        return 4  # Lower bar when many opportunities
+    elif vix_level < 15 or opportunity_count_today < 3:
+        return 6  # Higher bar when few opportunities  
+    else:
+        return 5  # Standard threshold
+```
+
+### ADAPTIVE SCORING COMPONENTS
+```
+Base Setup Match: +3 points (always)
+Technical Confirmation: +2 points (always)
+No Bad News: +2 points (always)  
+Business Understanding: +2 points (always)
+
+DYNAMIC COMPONENTS:
+VIX >21: +1 point (opportunity environment)
+VIX <15: -1 point (fewer opportunities, be selective)
+Strong Market Trend: +1 point (momentum supportive)
+Account Performing Well: +1 point (confidence booster)
+Recent Losses: -1 point (be more careful)
+```
+
+---
+
+## SETUP FOCUS OPTIMIZATION
+
+### MARKET-RESPONSIVE SETUP SELECTION
+```python
+def select_optimal_setup(vix_level, market_trend, sector_rotation, earnings_season):
+    setup_scores = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+    
+    # VIX-based scoring
+    if vix_level > 21:
+        setup_scores[1] += 3  # Oversold bounces work well
+        setup_scores[4] += 2  # Sympathy plays increase
+    
+    # Trend-based scoring  
+    if market_trend == "Uptrend":
+        setup_scores[2] += 2  # Support bounces work
+        setup_scores[5] += 1  # Gap fills work
+    elif market_trend == "Downtrend":  
+        setup_scores[1] += 2  # More oversold opportunities
+        
+    # Event-based scoring
+    if earnings_season:
+        setup_scores[3] += 3  # Earnings reactions peak
+    
+    if sector_rotation:
+        setup_scores[4] += 2  # Sympathy plays increase
+    
+    # Return highest-scoring setup
+    return max(setup_scores, key=setup_scores.get)
+```
+
+### SETUP ROTATION INTELLIGENCE
+- **Track success rate** by setup in different environments
+- **Learn from patterns** - which setups work when
+- **Adapt recommendations** based on personal performance history
+- **Switch focus** when conditions change significantly
+
+---
+
+## TIME-BASED RULE ADAPTATIONS
+
+### INTRADAY TIMING ADJUSTMENTS
+```python
+def get_trading_window_advice(current_time_uk, vix_level):
+    if current_time_uk < "14:30":
+        return "Market opens 2:30 PM. Use time for screening."
+    
+    elif "14:30" <= current_time_uk < "15:00":
+        if vix_level > 25:
+            return "High volatility opening. Wait 45 minutes instead of 30."
+        else:
+            return "Standard opening. Wait 30 minutes before trading."
+    
+    elif "15:00" <= current_time_uk < "16:00":
+        return "Prime trading window. Execute highest conviction setups."
+    
+    elif "16:00" <= current_time_uk < "20:30":
+        return "Normal trading hours. Continue systematic execution."
+    
+    elif "20:30" <= current_time_uk <= "21:00":
+        return "Final 30 minutes. Only take exceptional setups."
+    
+    else:
+        return "Market closed. Review performance, update tracker."
+```
+
+### HOLIDAY AND EVENT ADJUSTMENTS
+- **US Market Holidays:** Reduce position sizes by 1%
+- **FOMC Days:** Wait until after 2:00 PM ET for first trades
+- **Major Economic Releases:** Pause trading 30 minutes before/after
+- **Earnings Season Peak:** Extend screening time, focus Setup 3
+
+---
+
+## PERFORMANCE-BASED RULE MODIFICATIONS
+
+### WINNING STREAK ADJUSTMENTS
+```python
+def adjust_for_performance_streak(consecutive_wins, consecutive_losses):
+    adjustments = {}
+    
+    if consecutive_wins >= 5:
+        adjustments['position_size_boost'] = 0.5  # Slightly larger positions
+        adjustments['conviction_threshold'] = -0.5  # Slightly more aggressive
+        
+    elif consecutive_losses >= 3:
+        adjustments['position_size_reduction'] = -1.0  # Smaller positions  
+        adjustments['conviction_threshold'] = +1.0  # Much more selective
+        adjustments['max_trades_per_day'] = 2  # Reduce trading frequency
+        
+    return adjustments
+```
+
+### DRAWDOWN PROTECTION
+- **Account down 5%:** Reduce position sizes by 0.5%
+- **Account down 10%:** Reduce position sizes by 1%, raise conviction to 6+
+- **Account down 15%:** Emergency mode - 3% positions, 7+ conviction only
+- **Three losses in row:** Take 24-hour break, return with heightened selectivity
+
+---
+
+## EMERGENCY OVERRIDE PROTOCOLS
+
+### MARKET CRISIS DETECTION
+```python
+def detect_market_crisis(vix_level, spy_5day_return, news_sentiment):
+    crisis_score = 0
+    
+    if vix_level > 35: crisis_score += 3
+    if spy_5day_return < -10: crisis_score += 2  
+    if news_sentiment == "Extreme Fear": crisis_score += 2
+    
+    if crisis_score >= 5:
+        return "CRISIS_MODE"
+    elif crisis_score >= 3:
+        return "HIGH_ALERT"  
+    else:
+        return "NORMAL"
+```
+
+### CRISIS MODE OVERRIDES
+- **Position Sizing:** 3% standard, 6% exceptional maximum
+- **Allocation:** Ignore normal limits, deploy up to 90% if opportunities
+- **Setup Focus:** Setup 1 (Oversold) exclusively
+- **Conviction:** Lower threshold to 4+ (many opportunities)
+- **Time Horizon:** Hold for +8% instead of +10% (take profits faster)
+
+---
+
+## SYSTEM EVOLUTION PROTOCOLS
+
+### WEEKLY CALIBRATION
+```python
+def weekly_system_calibration():
+    # Analyze past week's performance
+    # Identify which rule adjustments helped/hurt
+    # Adjust parameters for next week
+    # Update dynamic thresholds based on results
+    
+    performance_data = load_week_performance()
+    market_data = load_week_market_conditions()
+    
+    # Learn from what worked
+    successful_adjustments = identify_successful_rules(performance_data)
+    
+    # Evolve the system
+    update_adaptive_parameters(successful_adjustments)
+```
+
+### MONTHLY RULE EVOLUTION
+- **Setup Performance Review:** Which setups worked in which conditions?
+- **Sizing Performance Review:** Were volatility adjustments optimal?
+- **Threshold Performance Review:** Were conviction levels appropriate?
+- **Allocation Performance Review:** Did dynamic allocation improve results?
+
+---
+
+## IMPLEMENTATION EXAMPLES
+
+### DAILY RULE APPLICATION
+```
+1. Load account-tracker.json for current status
+2. Assess current market environment (VIX, trend, time)  
+3. Calculate dynamic position sizes for today
+4. Determine optimal setup focus for current conditions
+5. Set appropriate conviction threshold for opportunity level
+6. Execute trades within adapted framework
+7. Update performance metrics and calibrate for tomorrow
+```
+
+### RULE CONFLICT RESOLUTION
+**If rules conflict, priority order:**
+1. **Safety First:** Capital preservation overrides all
+2. **Core Principles:** +10%/-5% exits never change
+3. **Adaptive Sizing:** Dynamic position sizing based on volatility
+4. **Opportunity Response:** Allocation adjusts to opportunity level
+5. **Performance Feedback:** Recent success/failure influences future rules
+
+---
+
+**Remember: The rules adapt to serve you better, but the core principle never changes - win more trades than you lose through disciplined, intelligent execution.**
