@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* OUTPOST Professional Dashboard Styles - Modern Clean Design */
+/* WinMore Professional Dashboard Styles - Modern Clean Design */
 @layer base {
   :root {
     /* Modern Professional Color Palette - Dark Theme */
@@ -99,7 +99,7 @@
   .dashboard-content {
     @apply flex-1 p-6 space-y-6;
   }
-
+  
   /* Modern Cards */
   .card {
     @apply bg-card text-card-foreground shadow-sm border border-border rounded-lg;

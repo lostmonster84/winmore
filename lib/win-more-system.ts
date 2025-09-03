@@ -105,14 +105,14 @@ export const MONTHLY_ALLOCATION_LIMITS: MonthlyAllocationLimits = {
 
 // Get current month's allocation limit
 export function getCurrentMonthAllocationLimit(): number {
-  const now = new Date();
+  const now = typeof window !== 'undefined' ? new Date() : new Date(2024, 8, 1); // Default to September (conservative)
   const month = now.toLocaleString('en-US', { month: 'long' }).toUpperCase() as keyof MonthlyAllocationLimits;
   return MONTHLY_ALLOCATION_LIMITS[month];
 }
 
 // Get month character description
 export function getMonthCharacter(month?: number): string {
-  const currentMonth = month || new Date().getMonth() + 1;
+  const currentMonth = month || (typeof window !== 'undefined' ? new Date().getMonth() + 1 : 9); // Default to September (conservative)
   
   const descriptions: Record<number, string> = {
     1: "New year momentum - Quality setups only",
@@ -214,7 +214,7 @@ export class DailyLimitsManager {
   private static readonly MAX_TRADES_PER_DAY = 3;
   
   static getDailyLimits(tradesExecutedToday: number): DailyTradingLimits {
-    const now = new Date();
+    const now = typeof window !== 'undefined' ? new Date() : new Date(2024, 0, 1);
     const nextMidnight = new Date(now);
     nextMidnight.setHours(24, 0, 0, 0); // Next midnight UK time
     
@@ -341,7 +341,7 @@ export class VIXAssessor {
     
     return {
       value: vixValue,
-      timestamp: new Date(),
+      timestamp: typeof window !== 'undefined' ? new Date() : new Date(2024, 0, 1),
       opportunityLevel,
       interpretation,
       positionSizeRecommendation
@@ -439,13 +439,15 @@ export class WinMoreRuleEngine implements RuleEnforcement {
 // Account Manager
 export class WinMoreAccountManager {
   static createAccount(currentBalance: number): WinMoreAccount {
-    const currentMonth = new Date().getMonth() + 1;
+    // Use a fixed timestamp to avoid hydration issues - will be updated on client
+    const fixedTime = typeof window !== 'undefined' ? new Date() : new Date(2024, 0, 1);
+    const currentMonth = fixedTime.getMonth() + 1;
     const { limitPercent, limitAmount } = AllocationCalculator.getCurrentLimit(currentBalance);
     
     return {
       currentBalance,
       currency: 'GBP',
-      lastUpdated: new Date(),
+      lastUpdated: fixedTime,
       
       standardPositionPercent: 5,
       exceptionalPositionPercent: 10,
@@ -476,7 +478,7 @@ export class WinMoreAccountManager {
     return {
       ...account,
       currentBalance: newBalance,
-      lastUpdated: new Date(),
+      lastUpdated: typeof window !== 'undefined' ? new Date() : account.lastUpdated,
       standardPositionSize: PositionSizeCalculator.calculateStandardPosition(newBalance),
       exceptionalPositionSize: PositionSizeCalculator.calculateExceptionalPosition(newBalance),
       monthlyAllocationLimit: limitAmount,

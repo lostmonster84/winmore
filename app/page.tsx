@@ -102,14 +102,14 @@ export default function Dashboard() {
         }));
         setWatchlist(hydratedWatchlist);
       } else {
-        // Use timestamp strings to avoid hydration mismatches
-        const currentTime = Date.now();
+        // Create default watchlist - use consistent timestamp
+        const baseTime = 1704067200000; // Fixed timestamp to avoid hydration issues
         const defaultWatchlist: WatchlistItem[] = [
           {
             id: 'nvda-1',
             symbol: 'NVDA',
             name: 'NVIDIA Corporation',
-            addedDate: new Date(currentTime),
+            addedDate: new Date(baseTime),
             alertConditions: {
               oversoldScore: 7,
               priceBelow: 400,
@@ -120,7 +120,7 @@ export default function Dashboard() {
             id: 'tsla-1', 
             symbol: 'TSLA',
             name: 'Tesla, Inc.',
-            addedDate: new Date(currentTime),
+            addedDate: new Date(baseTime + 1000),
             alertConditions: {
               oversoldScore: 7,
               priceBelow: 200,
@@ -131,7 +131,7 @@ export default function Dashboard() {
             id: 'aapl-1',
             symbol: 'AAPL', 
             name: 'Apple Inc.',
-            addedDate: new Date(currentTime),
+            addedDate: new Date(baseTime + 2000),
             alertConditions: {
               oversoldScore: 6,
               priceBelow: 150,
@@ -161,11 +161,13 @@ export default function Dashboard() {
       return;
     }
 
+    // Generate timestamp only on client side to avoid hydration issues
+    const timestamp = typeof window !== 'undefined' ? Date.now() : 0;
     const newItem: WatchlistItem = {
-      id: `${symbol.toLowerCase()}-${Date.now()}`,
+      id: `${symbol.toLowerCase()}-${timestamp}`,
       symbol: symbol.toUpperCase(),
       name: '',
-      addedDate: new Date(Date.now()),
+      addedDate: new Date(timestamp),
       alertConditions: {
         oversoldScore: 7,
         priceBelow: undefined,

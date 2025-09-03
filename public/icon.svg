@@ -17,14 +17,14 @@
         opacity="0.6" 
         stroke-dasharray="5,5"/>
   
-  <!-- OUTPOST text -->
+  <!-- WinMore text -->
   <text x="96" y="170" 
         font-family="monospace" 
         font-size="14" 
         font-weight="bold" 
         fill="white" 
-        text-anchor="middle">OUTPOST</text>
+        text-anchor="middle">WinMore</text>
   
-  <!-- Pirate flag emoji representation -->
-  <text x="50" y="40" font-size="24">🏴‍☠️</text>
+  <!-- Trophy emoji representation -->
+  <text x="50" y="40" font-size="24">🏆</text>
 </svg>
